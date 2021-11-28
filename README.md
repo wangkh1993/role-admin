@@ -117,4 +117,5 @@ docker rm $(docker ps -a -q)
 docker rmi pickuser
 ```
 
-
+## Note
+Formatting using *black*
