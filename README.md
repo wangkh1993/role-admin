@@ -28,7 +28,7 @@ magiclunch
 Required **Docker** installed. 
 Run below command to build image:
 
-```docker build -t pickuser:latest .```
+```docker build -t --name=pickuser pickuser:latest .```
 
 Run below command to fire up the container and start Python window:
 
