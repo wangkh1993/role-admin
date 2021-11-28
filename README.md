@@ -17,8 +17,11 @@ magiclunch
 
 ## Files
 `main.py`: application file, contains class modules and functions
+
 `requirements.txt`: python dependencies
+
 `test_func.py`: unittest for testing functions
+
 `test_getsub.py`: unittest for testing getSubOridinates function
 
 ## Running using Docker
