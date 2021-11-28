@@ -2,6 +2,7 @@ class Roles(object):
     """
     Class for Roles, getting an input dict of the role, initiate Id,Name and Parent attributes
     """
+
     def __init__(self, role):
         self.Id = role.get("Id")
         self.Name = role.get("Name")
@@ -12,6 +13,7 @@ class Users(object):
     """
     Class for Users, getting an input dict of the user, initiate Id,Name Role and parent attributes
     """
+
     def __init__(self, user):
         self.Id = user.get("Id")
         self.Name = user.get("Name")
@@ -22,8 +24,10 @@ class Users(object):
     def __str__(self):
         return str({"Id": self.Id, "Name": self.Name, "Role": self.Role})
 
+
 # global variable
 roles_li = []
+
 
 def setRoles(roles_in):
     """
@@ -35,6 +39,7 @@ def setRoles(roles_in):
     global roles_li
     roles_li = [Roles(role_in) for role_in in roles_in]
     return None
+
 
 # global variable
 users_li = []
