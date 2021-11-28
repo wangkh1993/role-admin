@@ -80,6 +80,11 @@ Sample output of above command:
 
 ```[{'Id': 2, 'Name': 'Emily Employee', 'Role': 4}, {'Id': 3, 'Name': 'Sam Supervisor', 'Role': 3}, {'Id': 4, 'Name': 'Mary Manager', 'Role': 2}, {'Id': 5, 'Name': 'Steve Trainer', 'Role': 5}]```
 
+If your container is stopped, run below command to start it
+
+```docker start pickuser```
+
+
 To run unittest use below command (when your container is running and called *picklunch*):
 
 ```docker exec -ti pickuser python -m unittest test/test_func.py```
