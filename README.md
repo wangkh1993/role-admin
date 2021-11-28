@@ -105,4 +105,16 @@ Run below command using sample input provided in `main.py`
 Alternatively you can use interactive mode like the Docker example above.
 
 
+## Docker Cleanup
+
+If you need to clean up your Docker containers/images
+
+Run below commands:
+
+```
+docker kill $(docker ps -q)
+docker rm $(docker ps -a -q)
+docker rmi pickuser
+```
+
 
