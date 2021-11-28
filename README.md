@@ -32,7 +32,7 @@ Run below command to build image:
 
 Run below command to fire up the container and start Python window:
 
-```docker run -ti --name=pickuser pickuser```
+```docker run -ti pickuser```
 
 In Python terminal within the container, run the import module:
 
