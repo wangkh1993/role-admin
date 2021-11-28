@@ -5,10 +5,10 @@ A python application used to return list of users provided user ID as an input.
 ```
 magiclunch
 ├── Dockerfile
-├── main
-│   └── main.py
 ├── README.md
 ├── requirements.txt
+├── main
+│   └── main.py
 ├── test
 │   ├── test_func.py
 │   ├── test_getsub.py
