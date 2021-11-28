@@ -48,7 +48,7 @@ def getSubOrdinates(rank):
     for us in users_li:
         if us.parent and us.parent > check_role:
             output.append({k: us.__dict__.get(k) for k in us_keys})
-    print(output)
+    # print(output)
     return output
 
 
