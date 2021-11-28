@@ -28,11 +28,11 @@ magiclunch
 Required **Docker** installed. 
 Run below command to build image:
 
-```docker build -t --name=pickuser pickuser:latest .```
+```docker build -t pickuser:latest .```
 
 Run below command to fire up the container and start Python window:
 
-```docker run -ti pickuser```
+```docker run -ti --name=pickuser pickuser```
 
 In Python terminal within the container, run the import module:
 
